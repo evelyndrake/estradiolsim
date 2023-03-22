@@ -10,7 +10,6 @@ struct MedicationType{
     k2: f32,
     k3: f32,
 }
-
 fn main() {
     // define medication types, data from https://transfemscience.org/articles/injectable-e2-meta-analysis/
     let estradiol_valerate = MedicationType{
