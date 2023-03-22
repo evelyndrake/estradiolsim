@@ -70,7 +70,7 @@ fn main() {
     println!("--------------------------------------");
     println!("Estradiol concentration in blood (pg/mL) over time ({} mg {})", dose, current_medication.name);
     // use textplots crate to plot estradiol concentration over time
-    Chart::new(120, 60, 0.0, simulation_time)
+    Chart::new(200, 80, 0.0, simulation_time)
         .lineplot(&Shape::Continuous(Box::new(closure)))
         .display();
 }
