@@ -1,4 +1,5 @@
 use termplot::*;
+
 fn main() {
     let mut plot = Plot::default();
     plot.set_domain(Domain(-10.0..10.0))
