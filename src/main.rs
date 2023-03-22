@@ -10,5 +10,5 @@ fn main() {
         .set_size(Size::new(175, 50))
         .add_plot(Box::new(plot::Graph::new(|x| x.sin() / x)));
     
-    println!("{plot}");    
+    println!("{plot} test");    
 }
